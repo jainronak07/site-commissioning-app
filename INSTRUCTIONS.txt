@@ -1,39 +1,54 @@
 ## 🚀 How to Run Locally
 
 ### Prerequisites
-Ensure you have the following installed on your local machine:
-* [Node.js](https://nodejs.org/) (v18 or higher)
+
+Ensure the following are installed on your local machine:
+
+* [Node.js](https://nodejs.org/) — v18 or higher
 * [Git](https://git-scm.com/)
-* **Expo Go** app installed on your physical iOS/Android device, or an iOS Simulator / Android Emulator configured.
+* **Expo Go** app on your physical iOS/Android device, or an iOS Simulator / Android Emulator
 
 ### Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/site-commissioning-app.git](https://github.com/YOUR_USERNAME/site-commissioning-app.git)
+1. **Clone the repository**
 
-2)Navigate to the project directory:
-Bash->   cd site-commissioning-app
+```bash
+git clone https://github.com/YOUR_USERNAME/site-commissioning-app.git
+```
 
+2. **Navigate to the project directory**
 
-3) install dependencies -> npm install
+```bash
+cd site-commissioning-app
+```
 
-4)start the dev server 
-->   npx expo start -c
+3. **Install dependencies**
 
+```bash
+npm install
+```
 
-||Running the App via Expo Go||
+4. **Start the Expo development server**
 
-To test the app on a physical device, follow these steps:
+```bash
+npx expo start -c
+```
 
-Download the Expo Go app from the iOS App Store or Google Play Store on your physical device.
+### 📱 Running the App with Expo Go
 
-⚠️ Important: Ensure your phone and your computer are connected to the exact same Wi-Fi network.
+To test the app on a physical device:
 
-Scan the QR code generated in your computer's terminal:
+1. Install the **Expo Go** app from the iOS App Store or Google Play Store.
+2. Ensure your phone and computer are connected to the **same Wi-Fi network**.
+3. Start the development server using:
 
-iOS: Open the default Camera app, point it at the QR code, and tap the Expo Go prompt that appears.
+```bash
+npx expo start -c
+```
 
-Android: Open the Expo Go app directly, tap "Scan QR Code", and point it at your screen.
+4. Scan the QR code displayed in the terminal.
 
-Your App is live
+* **iOS:** Open the default Camera app, scan the QR code, and tap the Expo Go prompt.
+* **Android:** Open the Expo Go app, select **Scan QR Code**, and scan the QR code displayed on your computer.
+
+Your app should now open in Expo Go and be ready for testing.

@@ -1,0 +1,38 @@
+## 🚀 How to Run Locally
+
+### Prerequisites
+Ensure you have the following installed on your local machine:
+* [Node.js](https://nodejs.org/) (v18 or higher)
+* [Git](https://git-scm.com/)
+* **Expo Go** app installed on your physical iOS/Android device, or an iOS Simulator / Android Emulator configured.
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/site-commissioning-app.git](https://github.com/YOUR_USERNAME/site-commissioning-app.git)
+
+2)Navigate to the project directory:
+Bash->   cd site-commissioning-app
+
+
+3) install dependencies -> npm install
+
+start the dev server 
+-> npx expo start -c
+
+
+||Running the App via Expo Go||
+To test the app on a physical device, follow these steps:
+
+Download the Expo Go app from the iOS App Store or Google Play Store on your physical device.
+
+⚠️ Important: Ensure your phone and your computer are connected to the exact same Wi-Fi network.
+
+Scan the QR code generated in your computer's terminal:
+
+iOS: Open the default Camera app, point it at the QR code, and tap the Expo Go prompt that appears.
+
+Android: Open the Expo Go app directly, tap "Scan QR Code", and point it at your screen.
+
+App is live

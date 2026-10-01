@@ -18,11 +18,12 @@ Bash->   cd site-commissioning-app
 
 3) install dependencies -> npm install
 
-start the dev server 
--> npx expo start -c
+4)start the dev server 
+->   npx expo start -c
 
 
 ||Running the App via Expo Go||
+
 To test the app on a physical device, follow these steps:
 
 Download the Expo Go app from the iOS App Store or Google Play Store on your physical device.
@@ -35,4 +36,4 @@ iOS: Open the default Camera app, point it at the QR code, and tap the Expo Go p
 
 Android: Open the Expo Go app directly, tap "Scan QR Code", and point it at your screen.
 
-App is live
+Your App is live

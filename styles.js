@@ -1,0 +1,33 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#f3f4f6' },
+  scroll: { padding: 16 },
+  mainTitle: { fontSize: 24, fontWeight: 'bold', color: '#111827', marginVertical: 12 },
+  section: { backgroundColor: '#ffffff', borderRadius: 10, padding: 16, marginBottom: 16, elevation: 1 },
+  sectionTitle: { fontSize: 18, fontWeight: '700', color: '#1f2937', marginBottom: 12 },
+  label: { fontSize: 14, fontWeight: '600', color: '#374151', marginTop: 10, marginBottom: 6 },
+  helperText: { fontSize: 13, color: '#6b7280', marginBottom: 10 },
+  input: { borderWidth: 1, borderColor: '#d1d5db', borderRadius: 6, padding: 10, fontSize: 15, backgroundColor: '#fff' },
+  row: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
+  horizontalScroll: { flexDirection: 'row', marginVertical: 6 },
+  pill: { paddingVertical: 8, paddingHorizontal: 14, borderRadius: 6, backgroundColor: '#e5e7eb', marginRight: 6, marginBottom: 6 },
+  pillActive: { backgroundColor: '#2563eb' },
+  pillText: { color: '#374151', fontWeight: '500' },
+  pillTextActive: { color: '#ffffff', fontWeight: '600' },
+  subBox: { backgroundColor: '#f9fafb', padding: 10, borderRadius: 8, marginTop: 8, borderWidth: 1, borderColor: '#e5e7eb' },
+  unitCard: { backgroundColor: '#ffffff', borderWidth: 1, borderColor: '#e5e7eb', padding: 10, borderRadius: 6, marginTop: 10 },
+  unitHeader: { fontSize: 14, fontWeight: '700', color: '#4b5563' },
+  readOnlyBox: { backgroundColor: '#e0f2fe', padding: 12, borderRadius: 6, marginTop: 4 },
+  readOnlyText: { fontSize: 18, fontWeight: '700', color: '#0369a1' },
+  photoGroupTitle: { fontSize: 15, fontWeight: '600', color: '#4b5563', marginTop: 12, marginBottom: 6 },
+  photoButton: { padding: 14, borderRadius: 6, borderWidth: 1, borderColor: '#9ca3af', borderStyle: 'dashed', backgroundColor: '#f9fafb', marginBottom: 8 },
+  photoButtonDone: { borderColor: '#16a34a', backgroundColor: '#dcfce7', borderStyle: 'solid' },
+  photoText: { color: '#4b5563', fontWeight: '500' },
+  photoTextDone: { color: '#15803d', fontWeight: '600' },
+  errorBox: { backgroundColor: '#fee2e2', borderWidth: 1, borderColor: '#fca5a5', padding: 12, borderRadius: 8, marginBottom: 16 },
+  errorHeader: { color: '#b91c1c', fontWeight: '700', marginBottom: 4 },
+  errorItem: { color: '#b91c1c', fontSize: 13, marginTop: 2 },
+  saveBtn: { backgroundColor: '#111827', padding: 16, borderRadius: 8, alignItems: 'center', marginBottom: 30 },
+  saveBtnText: { color: '#ffffff', fontSize: 16, fontWeight: '700' }
+});
